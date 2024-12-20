@@ -6,3 +6,76 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+.page .header {
+  background-color: #ffffff;
+  background-image: url("../images/background_header.svg");
+  background-repeat: none;
+  margin: auto;
+  object-fit: cover;
+  height: 800px;
+  display: flex;
+  position: relative;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.2
+  ); /*DELETE THIS COLOR LATER, I JUST CANT SEE */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+}
+
+.nav__logo {
+  max-width: 105px;
+  height: 39px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  margin: 8px 0 0;
+  padding: 30px 80px;
+}
+
+.nav__logo {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.header__title {
+  max-width: 729px;
+  position: relative;
+  top: 183px;
+  left: 80px;
+  margin-bottom: 0;
+}
+
+.header__span-accent {
+  display: block;
+}
+
+.header__description {
+  margin: 28px 0;
+  max-width: 683px;
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  right: 5px;
+  top: 124px;
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+}
