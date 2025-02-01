@@ -1,11 +1,18 @@
-.page .header {
-  position: relative;
+.header {
   background-color: #ffffff;
-  background-image: url("../images/background_header.svg");
   background-repeat: no-repeat;
   margin: auto;
-  object-fit: cover;
+  background-size: center/cover;
+  /*font-size: 0px;*/
+
+  display: flex;
+  flex-direction: column;
   height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  z-index: 0;
+  box-sizing: border-box;
+  background-image: url("../images/background_header.svg");
 }
 
 .nav {
@@ -23,6 +30,8 @@
 .nav__logo {
   max-width: 105px;
   height: 39px;
+  position: relative;
+  left: -50px;
 }
 
 .nav__links {
