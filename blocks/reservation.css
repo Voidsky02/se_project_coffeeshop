@@ -54,8 +54,11 @@
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
+  padding: 15px 20px;
   line-height: 30px;
   color: #000;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .form__input::placeholder {
@@ -95,5 +98,4 @@
 }
 
 input {
-  padding: 15px 20px;
 }

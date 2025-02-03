@@ -2,7 +2,8 @@
   background-color: #ffffff;
   background-repeat: no-repeat;
   margin: auto;
-  background-size: center/cover;
+  background-position: center;
+  background-size: cover;
   /*font-size: 0px;*/
 
   display: flex;
@@ -94,6 +95,7 @@
   position: absolute;
   right: 5px;
   top: 124px;
+  z-index: -1;
 }
 
 .header__footer .header__paragraph {
@@ -102,13 +104,11 @@
 
 .header__footer {
   display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
   width: 100%;
-  flex-direction: column;
   margin-top: auto;
-  position: absolute;
-  bottom: 40px;
-  left: 80px;
-  right: 80px;
+  box-sizing: border-box;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -117,14 +117,12 @@
   color: #6f6f6f;
 }
 
-.header__footer .header__paragraph:last-of-type {
-  align-self: end;
-  position: relative;
-  right: 160px;
-}
-
 .header__main-title {
   position: relative;
   top: 183px;
   left: 80px;
+}
+
+.header__paragraph {
+  margin: 0;
 }
